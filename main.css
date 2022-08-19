@@ -146,7 +146,6 @@ body{
 
 .container{
     overflow-x: hidden;
-    border: dashed rgb(64, 39, 224) 1px;
     margin: 05px auto;
 }
 
