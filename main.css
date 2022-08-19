@@ -141,7 +141,6 @@ html{
 
 body{
     display: flex;
-    border: dashed red 1px;
 }
 
 .container{
@@ -157,7 +156,7 @@ body{
     position: relative;
     font-size: 12em;
     line-height: 1.1;
-    font-family:'playlistscript' ;
+    font-family:'playlistscript';
 }
 
 .logo span{
@@ -234,7 +233,6 @@ body{
 }
 
 .form-wapper form{
-    border: dashed red 1px;
     width: 80%;
     margin: 0 auto;
     
