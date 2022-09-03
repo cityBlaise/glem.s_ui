@@ -1,0 +1,5 @@
+#fafafa
+#dbdbdb
+#f8fafc
+#1e293b
+-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif

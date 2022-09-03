@@ -1,0 +1,226 @@
+html,body{
+    /* min-height: 100vh; */
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 390px;
+    margin: 03px auto;
+    background-color: #ffdc5e;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    margin-inline: auto;
+}
+
+header{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+header p{
+    padding: 0;
+    height: 45px;
+    margin: 0;
+}
+
+header p img{
+    margin-left: 2em;
+    height: 90%;
+}
+
+header button{
+    outline: none;
+    border: none;
+    padding-inline: 1em;
+    padding-block: .6em;
+    font-size: 1em;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 1em;
+    border-radius: 3em 3em 0 0 ;
+    padding-top: 3em;
+    padding-inline: 1.2em;
+
+}
+
+.categories{ 
+    margin-bottom: .6em;
+    font-size: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.categories p{
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.categories ul{
+    margin: 0;
+    overflow-x: scroll;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: .4em;
+    gap: 15px;
+    flex-wrap: nowrap;
+    padding-bottom: .5em;
+}
+
+.categories ul::-webkit-scrollbar{
+
+    height: 0em;
+}
+ 
+.categories ul li{
+    flex: 0 0 20%;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+     padding-block: .6em;
+     padding-inline: 10px;
+     flex:1 0 auto;
+    text-align: center;
+    border: none;
+    font-size: .6em;
+    box-shadow: rgb(148, 142, 142) 1px 1px 4px ;
+    cursor: pointer;
+}
+
+.priz-filter{
+    font-size: 1.5em;
+    font-weight: bolder; 
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 1em;
+}
+
+.priz-filter span{
+    font-size: .8em;
+}
+#prix{
+    
+    border-radius: 5px ;
+    height: 4px;
+    flex: 1;
+}
+
+.articles{ 
+    flex: 1;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    padding-bottom: 1em;
+}
+
+.articles::-webkit-scrollbar{
+    height: 0;
+}
+
+.article-item{
+    flex: 1 0 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.article-item .img-container{
+    width: 100%;
+    height: 450px;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+}
+.article-item .infos{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.article-item .infos div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.6em;
+}
+
+.article-item .infos button{
+    outline: none;
+    border: none;
+    padding-inline: 1em;
+    padding-block: .6em;
+    font-size: 1em; 
+    border-radius: 5px;
+    background-color: rgb(41, 210, 53);
+    color: white;
+    font-weight: bold;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination ul{
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    
+}
+
+.pagination ul button{
+    outline: none;
+    border: none; 
+    font-size: 1em; 
+    border-radius: 5px;
+    background-color: rgb(41, 182, 210);
+    color: white;
+    font-weight: bold;
+}
+
+.pagination ul button:focus{
+    border: solid 1px rgb(10, 214, 255);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(216, 31, 139);
+}
+
+footer button{
+    outline: none;
+    border: none;
+    padding-inline: 1em;
+    padding-block: .6em;
+    font-size: 1em; 
+    border-radius: 5px;
+    background-color: rgb(41, 210, 53);
+    color: white;
+    font-weight: bold;
+}
