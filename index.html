@@ -1,99 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLEM's</title>
     <link rel="stylesheet" href="./index.css">
-    <title>Document</title>
 </head>
+
 <body>
     <div class="container">
         <header>
-            <p>
-                <img src="./logo.svg" alt="">
-            </p>
-            <button>sign up</button>
+            <div><img src="./logo.svg" alt=""></div>
+            <div><button>sign up</button></div>
         </header>
-
-        <main>
-            <div class="categories">
-            <p>categories</p>
-                <ul>
-                    <li>T-shirt</li>
-                    <li>Crop top</li>
-                    <li>Robe</li>
-                    <li>combishort</li>
-                    <li>matelot</li>
-                    <li>jeans</li>
-                </ul>
+        <div class="categories">
+            <div class="cat-text">
+                <span>Categories</span>
+                <span class="filter">i</span></div>
+                <div class="filter-hidden">
+                    <span>prix</span> <input type="range" name="" id=""><span class="prix">XAF 3 000</span>
+                </div>
+            <ul>
+                <li class="categorie-item">short</li>
+                <li class="categorie-item">combishort</li>
+                <li class="categorie-item">t-shrit</li>
+                <li class="categorie-item">robe</li>
+                <li class="categorie-item">crop top</li>
+            
+            </ul>
+            <i></i>
+        </div>
+        <main> 
+            <div class="item-card">
+                <div class="image-wapper">
+                    <img src="./erh.jpg" alt="">
+                </div>
+                <div class="infos">
+                    <div class="text">
+                        <span>panton jeans taille haute destroy <br> Size: M - l</span>
+                    <span>XAF 3 000</span>
+                    </div>
+                    <button>add to cart</button>
+                </div>
+                
             </div>
-            <div class="priz-filter">
-                <label for="#prix">prix</label>
-                <input type="range" name="" id="prix">
-                <span>XAF 3 000</span>
+            <div class="item-card">
+                <div class="image-wapper">
+                    <img src="./1.jpg" alt="">
+                </div>
+                <div class="infos">
+                    <div class="text">
+                        <span>robe moulante <br> Size: M - l</span>
+                    <span>XAF 3 500</span>
+                    </div>
+                    <button>add to cart</button>
+                </div>
+                
             </div>
-
-            <div class="articles">
-                <div class="article-item">
-                    <div class="img-container">
-                        <img src="./erh.jpg" alt="">
-                    </div>
-                    <div class="infos">
-                        <div>
-                            <span>combishort millitaire</span>
-                            <span>XAF 2 398</span>
-                        </div>
-                        <button>add</button>
-                    </div>
+            <div class="item-card">
+                <div class="image-wapper">
+                    <img src="./2.jpg" alt="">
                 </div>
-                <div class="article-item">
-                    <div class="img-container">
-                        <img src="./erh.jpg" alt="">
+                <div class="infos">
+                    <div class="text">
+                        <span>combishort<br> Size: M - l</span>
+                    <span>XAF 2 000</span>
                     </div>
-                    <div class="infos">
-                        <div>
-                            <span>combishort millitaire</span>
-                            <span>XAF 2 398</span>
-                        </div>
-                        <button>add</button>
-                    </div>
+                    <button>add to cart</button>
                 </div>
-                <div class="article-item">
-                    <div class="img-container">
-                        <img src="./erh.jpg" alt="">
-                    </div>
-                    <div class="infos">
-                        <div>
-                            <span>combishort millitaire</span>
-                            <span>XAF 2 398</span>
-                        </div>
-                        <button>add</button>
-                    </div>
-                </div>
-                <div class="article-item">
-                    <div class="img-container">
-                        <img src="./erh.jpg" alt="">
-                    </div>
-                    <div class="infos">
-                        <div>
-                            <span>combishort millitaire</span>
-                            <span>XAF 2 398</span>
-                        </div>
-                        <button>add</button>
-                    </div>
-                </div>
+                
             </div>
-            <div class="pagination"><ul>
-                <li><button>1</button></li>
-                <li><button>2</button></li>
-                <li><button>3</button></li>
-                <li><button>4</button></li>
-            </ul></div>
+            <div class="item-card">
+                <div class="image-wapper">
+                    <img src="./3.jpg" alt="">
+                </div>
+                <div class="infos">
+                    <div class="text">
+                        <span>combishort <br> Size: s-M</span>
+                    <span>XAF 2 500</span>
+                    </div>
+                    <button>add to cart</button>
+                </div>
+                
+            </div>
+            <div class="item-card">
+                <div class="image-wapper">
+                    <img src="./4.jpg" alt="">
+                </div>
+                <div class="infos">
+                    <div class="text">
+                        <span>cropt top do nu <br> Size: XS</span>
+                    <span>XAF 1 500</span>
+                    </div>
+                    <button>add to cart</button>
+                </div>
+                
+            </div>
         </main>
-
-
+        <footer>
+            <div class="footer-item-wapper">
+                <div class="footer-item"></div>
+                <div class="footer-item"></div>
+                <div class="footer-item"></div>
+                <div class="footer-item"></div>
+            </div>
+        </footer>
     </div>
-    
+    <script src="./index.js"></script>
 </body>
+
 </html>
